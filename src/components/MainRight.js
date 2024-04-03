@@ -10,7 +10,6 @@ import Footer from './Footer';
 function Header(props) {
     return (
         <header>
-            <h3><br/></h3>
             <h1><span>{props.authorName}</span></h1><br/>
         </header>
     )

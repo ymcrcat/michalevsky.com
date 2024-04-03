@@ -23,14 +23,14 @@ function Music(props) {
             <section className="columns">
                 <h3>Old</h3>
                 This section contains some music I have composed in the past. Several pieces were
-                composed in cooperation with Vitaly Koshelev (a.k.a V-Shark).<br/>
+                composed in cooperation with Vitaly Koshelev (a.k.a V-Shark).
                 Various software was used including
-                MicroLogic Audio,
-                <a href="http://buzzmachines.com">Buzz Tracker</a>,
-                <a href="http://www.modplug.com">Modplug Trucker</a>,
-                <a href="http://www.rebirthmuseum.com/">Rebirth</a>, and
-                <a href="http://www.propellerheads.se/products/recycle/">Recycle</a>.
-                The music was composed during the period of 1997-2000.
+                MicroLogic Audio 
+                , <a href="http://buzzmachines.com">Buzz Tracker</a>
+                , <a href="http://www.modplug.com">Modplug Trucker</a>
+                , <a href="http://www.rebirthmuseum.com/">Rebirth</a>
+                , and <a href="http://www.propellerheads.se/products/recycle/">Recycle</a>.
+                Composed during the period of 1997-2000.
             </section>
 
             <section className="columns">

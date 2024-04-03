@@ -23,7 +23,37 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 }
 
 body {
-	line-height: 1;
+	font-family: 'Open Sans', Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.75;
+	color: #333;
+	background: #fff;
+}
+
+a, nav ul li a {
+	color: #007bff;
+}
+
+button {
+	background-color: #007bff;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #0056b3;
+}
+
+section {
+	margin: 40px 0;
+}
+  
+nav ul {
+	display: flex;
+	justify-content: space-between;
 }
 
 ol, ul {
@@ -67,18 +97,9 @@ html {
 	font-size: 16px;
 }
 
-body {
-	color: #333;
-	font: 75%/1.5em Lucida Sans, Arial, sans-serif;
-}
-
 h1, h2, h3, h4, h5, h6 {
 	color: #555;
 	font: 1.9em/1em Lucida Sans, Arial, sans-serif;
-}
-
-h1 {
-
 }
 
 h2 {
@@ -143,24 +164,11 @@ strong, b, .b {
 }
 
 a {
-	color: #990000;
 	text-decoration: none;
 }
 
-/*a:link {
-	color: #990000;
-	outline: none;
-	text-decoration: none;
-}
-
-a:visited {
-	color: #990000;
-	outline: none;
-	text-decoration: none;
-}*/
-
-a:hover {
-	color: #333;
+a:hover, nav ul li a:hover {
+	color: #0056b3;
 	text-decoration: underline;
 }
 
@@ -180,8 +188,6 @@ a:focus {
 
 /* Spacing
 ----------------------------------------------------------------------------------------------------*/
-
-
 
 h1, h2, h3, h4, h5, h6 {
 	padding-bottom: 3px !important;
@@ -274,17 +280,12 @@ body {
 }
 
 header {
-	/*height: 170px;*/
+	height: 40px;
 	width: 100%;
-	border: none;
 }
 
 header h1 {
-	color: #333;
-	font-size: 1.6em;
-	/*margin-top: 20px;*/
-	text-align: left;
-	border: none;
+	margin-top:20px;
 }
 
 header h1 span {
@@ -323,12 +324,9 @@ nav ul li {
 
 nav ul li a {
 	color: #E7DBBA;
-	font-size: 1em;
 	font-weight: normal;
 	letter-spacing: 0.1em;
-	padding: 8px 30px 8px 0px;
 	text-transform: uppercase;
-	border: none;
 }
 
 nav ul li a:hover {
@@ -380,12 +378,7 @@ nav ul li a:hover {
 	top: 220px !important;
 }
 
-/*#mainLeft2 {
-	margin: 20px 0 0 50px;
-	width: 520px !important;
-}*/
-
-#mainRight, #mainRight2 {
+#mainRight {
 	float: right;
 	margin-top: 30px;
 	width: 710px;
@@ -410,16 +403,12 @@ nav ul li a:hover {
 	border: none;
 }
 
-#signature {
-	margin-bottom: 5px;
-	text-align: right;
-}
-
 footer {
 	clear: both;
 	background: var(--footer-background) repeat-x;
-	padding-top: 10px;
+	padding-top: 20px;
 	border: none;
+	text-transform: uppercase;
 }
 
 footer p {
@@ -454,4 +443,14 @@ footer ul li a:hover {
 
 .showOnMouseover {
 	display: none;
+}
+
+@media (max-width: 768px) {
+	body {
+	  font-size: 14px;
+	}
+  
+	nav ul {
+	  flex-direction: column;
+	}
 }
