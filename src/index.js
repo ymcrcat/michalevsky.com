@@ -4,6 +4,12 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import bodyBackground from './assets/body_bkgd.png';
+import footerBackground from './assets/foot_bkgd.png';
+
+document.documentElement.style.setProperty('--body-background', `url(${bodyBackground})`);
+document.documentElement.style.setProperty('--footer-background', `url(${footerBackground})`);
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
