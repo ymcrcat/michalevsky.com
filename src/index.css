@@ -47,10 +47,6 @@ button:hover {
 	background-color: #0056b3;
 }
 
-section {
-	margin: 40px 0;
-}
-  
 nav ul {
 	display: flex;
 	justify-content: space-between;
@@ -334,9 +330,9 @@ nav ul li a:hover {
 	text-decoration: none;
 }
 
-#mainLeft, #mainLeft2 {
+#mainLeft {
 	float: left;
-	padding-top: 40px;
+	padding-top: 200px;
 	position: relative;
 	width: 225px;
 	text-align: left;
@@ -345,7 +341,6 @@ nav ul li a:hover {
 #mainLeft img {
 	border: none;
 	position: absolute;
-	top: 200px;
 	z-index: 5;
 }
 
