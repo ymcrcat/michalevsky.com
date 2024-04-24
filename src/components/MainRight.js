@@ -1,9 +1,10 @@
 import {Route, Routes} from 'react-router-dom';
+import { useAuthorContext } from '../Context'; // Adjust the path as necessary
 import Nav from './Nav';
 import Home from './Home';
 import Talks from './Talks';
 import Music from './Music';
-import Sofrware from './Software';
+import Software from './Software'; // Corrected typo in 'Software'
 import Contact from './Contact';
 import Footer from './Footer';
 
@@ -15,10 +16,12 @@ function Header(props) {
     )
 }
 
-function MainRight(props) {
+function MainRight() {
+    const { authorName } = useAuthorContext();
+
     return (
         <section id='mainRight' className="clear">
-            <Header authorName={props.authorName}/>
+            <Header authorName={authorName}/>
             <nav>
                <Nav />
             </nav>
@@ -27,7 +30,7 @@ function MainRight(props) {
                 <Route exact path='/' element={<Home/>} />
                 <Route path='/talks' element={<Talks/>} />
                 <Route path='/music' element={<Music/>} />
-                <Route path='/software' element={<Sofrware/>} />
+                <Route path='/software' element={<Software/>} />
                 <Route path='/contact' element={<Contact/>} />
             </Routes>
 

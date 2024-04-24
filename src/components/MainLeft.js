@@ -1,12 +1,15 @@
+import { useAuthorContext } from '../Context';
 import photo from '../assets/yan.png';
 
-function MainLeft(props) {
+function MainLeft() {
+    const authorName = useAuthorContext();
+
     return ( 
         <section id='mainLeft'>
             <section className='columns'>
-                <img src={photo} alt = {props.authorName} width='150' />
+                <img src={photo} alt={authorName} width='150' />
             </section>
-        </section> 
+        </section>     
     );
 }
 

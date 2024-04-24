@@ -2,15 +2,16 @@ import {BrowserRouter} from 'react-router-dom';
 import './App.css';
 import MainLeft from './components/MainLeft';
 import MainRight from './components/MainRight';
-
-const authorName = 'Yan Michalevsky';
+import AuthorProvider from './Context';
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
-          <MainLeft authorName = {authorName} />
-          <MainRight authorName = {authorName} />
+        <AuthorProvider>
+          <MainLeft/>
+          <MainRight/>
+        </AuthorProvider>
       </BrowserRouter>
     </div>
   );
