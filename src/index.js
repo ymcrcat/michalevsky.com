@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-import bodyBackground from './assets/body_bkgd.png';
+import bodyBackground from './assets/header_bg.jpeg';
 import footerBackground from './assets/foot_bkgd.png';
 
 document.documentElement.style.setProperty('--body-background', `url(${bodyBackground})`);

@@ -285,7 +285,7 @@ header h1 {
 }
 
 header h1 span {
-	color: #ED9580;
+	color: #e5ebf1;
 	display: block;
 	float: left;
 	padding-right: 5px;
@@ -319,7 +319,7 @@ nav ul li {
 }
 
 nav ul li a {
-	color: #E7DBBA;
+	color: #dce5e7;
 	font-weight: normal;
 	letter-spacing: 0.1em;
 	text-transform: uppercase;
@@ -415,7 +415,7 @@ footer p {
 footer ul {
 	float: right;
 	list-style: none;
-	width: 330px;
+	width: 430px;
 	margin-left: 0;
 	padding-top: 3px;
 	text-align: right;

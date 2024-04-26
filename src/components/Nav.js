@@ -9,7 +9,7 @@ function AddLink(props) {
 function Nav() {
     return (
         <ul>
-            <AddLink to='/' text='Home' />
+            <AddLink to='/' text='Publications' />
             <AddLink to='/talks' text='Talks' />
             <AddLink to='/music' text='Music' />
             <AddLink to='/software' text='Software' />
