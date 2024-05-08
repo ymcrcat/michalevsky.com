@@ -341,7 +341,7 @@ nav ul li a:hover {
 #mainLeft img {
 	border: none;
 	position: absolute;
-	z-index: 5;
+	z-index: 0;
 }
 
 #mainLeft h1 {

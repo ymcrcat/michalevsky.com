@@ -1,3 +1,5 @@
+import VideoPopup from './VideoPopup';
+
 const talks = [
     {
       key: 'dbreach-blackhat-us-2021',
@@ -7,6 +9,7 @@ const talks = [
         {
           name: 'BlackHat US 2021',
           url: 'https://www.youtube.com/watch?v=e0obU-kREdc',
+          video: 'e0obU-kREdc',
         }
       ]
     },
@@ -31,6 +34,7 @@ const talks = [
         },
         {
           name: 'Open Source Enclave Workshop 2019 (OSEW\'19)',
+          video: 'fSn8nIy0eD0',
         },
         {
           name: 'Stanford Security Lunch',
@@ -56,6 +60,7 @@ const talks = [
         {
           name: 'Silicon Valley Ethereum Meetup',
           url: 'https://www.youtube.com/watch?v=Ru6X043Q63U',
+          video: 'Ru6X043Q63U',
         },
         {
           name: 'Stanford Security Lunch',
@@ -136,6 +141,7 @@ const talks = [
             {
                 name: 'The 22nd Annual Conference on Mobile Computing and Networking (MobiCom\'16)',
                 url: 'https://www.youtube.com/watch?v=-Sq7g1aPDmc',
+                video: '-Sq7g1aPDmc'
             },
             {
                 name: 'Seminar talk at Tel-Aviv University',
@@ -190,6 +196,7 @@ const talks = [
         {
             name: '24th USENIX Security Symposium (USENIX Security \'15)',
             url: 'https://www.usenix.org/conference/usenixsecurity15/technical-sessions/presentation/michalevsky',
+            video: 'kgD0epbAbeM'
         },
         {
             name: 'Bay Area Security Research Summit 2015',
@@ -225,7 +232,7 @@ const talks = [
     {
         key: 'gyrophone-multiple-events',
         title: 'Gyrophone: Recognizing Speech from Gyroscope Signals',
-        mainUrl: 'https://2459d6dc103cb5933875-c0245c5c937c5dedcca3f1764ecc9b2f.ssl.cf2.rackcdn.com/sec14/michalevsky.mp4',
+        mainUrl: 'https://youtu.be/uUJSWpdHwdQ',
         events: [
         {
             name: 'BlackHat Europe 2014',
@@ -233,7 +240,8 @@ const talks = [
         },
         {
             name: '23rd USENIX Security Symposium (USENIX Security \'14)',
-            url: 'https://2459d6dc103cb5933875-c0245c5c937c5dedcca3f1764ecc9b2f.ssl.cf2.rackcdn.com/sec14/michalevsky.mp4',
+            url: 'https://youtu.be/uUJSWpdHwdQ',
+            video: 'uUJSWpdHwdQ'
         },
         {
             name: 'Seminar at the Technion Electrical Engineering Department',
@@ -254,6 +262,7 @@ function Talk(props) {
             {props.events.map((event, index) => (
                 <i key={index}>
                     {event.url ? <a href={event.url}>{event.name}</a> : event.name}
+                    {event.video ? <VideoPopup url={event.video} title={props.title} /> : null}
                     <br/>
                 </i>
             ))}
