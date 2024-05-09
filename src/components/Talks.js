@@ -1,4 +1,11 @@
 import VideoPopup from './VideoPopup';
+import rsaexp from '../assets/talks/rsaexp.pdf';
+import ecf from '../assets/talks/ecf.pdf';
+import ashes from '../assets/talks/ashes.pdf';
+import dphabe from '../assets/talks/dphabe.pdf';
+import mobisec from '../assets/talks/mobisec.pdf';
+import securereduce from '../assets/talks/securereduce.pdf';
+import mashable from '../assets/talks/mashable.pdf';
 
 const talks = [
     {
@@ -44,11 +51,11 @@ const talks = [
     {
       key: 'rsa-signatures-ashes-2018',
       title: 'RSA Signatures Under Hardware Restrictions',
-      mainUrl: 'files/rsaexp.pdf',
+      mainUrl: rsaexp,
       events: [
         {
           name: 'ACM Workshop on Attacks and Solutions in Hardware Security (ASHES 2018)',
-          url: 'files/rsaexp.pdf',
+          url: rsaexp,
         }
       ]
     },
@@ -64,14 +71,14 @@ const talks = [
         },
         {
           name: 'Stanford Security Lunch',
-          url: 'files/ecf.pdf',
+          url: ecf,
         }
       ]
     },
     {
       key: 'space-tee-ashes-2017',
       title: '(WaC) SpaceTEE: Secure and Tamper-proof Computing in Space using CubeSats',
-      mainUrl: 'files/ashes.pdf',
+      mainUrl: ashes,
       events: [
         {
           name: 'ACM Workshop on Attacks and Solutions in Hardware Security (ASHES 2017)',
@@ -81,22 +88,22 @@ const talks = [
     {
       key: 'decentralizing-policy-hiding-abe-multiple',
       title: 'Decentralizing Policy-hiding Attribute-based Encryption',
-      mainUrl: 'files/dphabe.pdf',
+      mainUrl: dphabe,
       events: [
         {
           name: 'Stanford Security Lunch talk',
-          url: 'files/dphabe.pdf',
+          url: dphabe,
         },
         {
           name: '23rd European Symposium on Research in Computer Security (ESORICS 2018)',
-          url: 'files/dphabe.pdf',
+          url: dphabe,
         }
       ]
     },
     {
         key: 'mobile-security-and-privacy-multiple',
         title: 'Mobile Security and Privacy: Attacks and Defenses',
-        mainUrl: 'files/mobisec.pdf',
+        mainUrl: mobisec,
         events: [
         {
             name: 'PhD Oral Defense Examination at Stanford',
@@ -122,18 +129,18 @@ const talks = [
     {
         key: 'securing-distributed-computation-hebrew-u',
         title: 'Securing Distributed Computation via Trusted Quorums',
-        mainUrl: 'files/securereduce.pdf',
+        mainUrl: securereduce,
         events: [
         {
             name: 'Seminar talk at the Hebrew University',
-            url: 'files/securereduce.pdf',
+            url: securereduce,
         }
         ]
     },
     {
         key: 'mashable-multiple-events',
         title: 'MASHaBLE: Mobile Applications of Secret Handshakes over Bluetooth LE',
-        mainUrl: 'files/mashable.pdf',
+        mainUrl: mashable,
         events: [
             {
                 name: 'Seminar talk at Columbia University',

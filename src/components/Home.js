@@ -1,3 +1,5 @@
+import thesis from '../assets/thesis.pdf';
+
 const publications = [
     {
       key: 'https://www.computer.org/csdl/proceedings-article/sp/2023/933600b455/1Js0DYPDRRu',
@@ -122,6 +124,11 @@ function Home(props) {
             <section className="columns">
                 <h2>Publications</h2>
                 {publications.map(p => <Publication {...p}/>)}
+            </section>
+
+            <section className="columns">
+                <h2>PhD Thesis</h2>
+                Mobile Security and Privacy: Attacks and Defenses (<a href={thesis}>thesis</a>)
             </section>
         </div>
     );
