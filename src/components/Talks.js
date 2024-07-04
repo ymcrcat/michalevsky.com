@@ -9,6 +9,18 @@ import mashable from '../assets/talks/mashable.pdf';
 
 const talks = [
     {
+      key: 'tropt-summit-2022',
+      title: 'TROPT Summit 2022: The Future of Privacy Enhancing Technologies (PETs)',
+      mainUrl: 'https://www.youtube.com/watch?v=507PfSOB4a4',
+      events: [
+        {
+          name: 'TROPT Summit 2022: The Future of Privacy Enhancing Technologies (PETs)',
+          url: 'https://www.youtube.com/watch?v=507PfSOB4a4',
+          video: '507PfSOB4a4',
+        }
+      ]
+    },
+    {
       key: 'dbreach-blackhat-us-2021',
       title: 'DBREACH: Database Reconnaissance and Exfiltration via Adaptive Compression Heuristics',
       mainUrl: 'https://www.youtube.com/watch?v=e0obU-kREdc',
