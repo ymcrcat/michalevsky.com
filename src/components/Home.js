@@ -2,6 +2,12 @@ import thesis from '../assets/thesis.pdf';
 
 const publications = [
     {
+      key: 'https://dl.acm.org/doi/10.1561/1300000070',
+      title: 'High Performance, Low Energy, and Trustworthy Blockchains Using Satellites',
+      url: 'https://dl.acm.org/doi/10.1561/1300000070',
+      pub: 'Foundations and Trends® in Networking, Volume 13, Issue 4'
+    },
+    {
       key: 'https://www.computer.org/csdl/proceedings-article/sp/2023/933600b455/1Js0DYPDRRu',
       title: 'DBREACH: Stealing from Databases Using Compression Side Channels',
       url: 'https://www.computer.org/csdl/proceedings-article/sp/2023/933600b455/1Js0DYPDRRu',
