@@ -9,6 +9,18 @@ import mashable from '../assets/talks/mashable.pdf';
 
 const talks = [
     {
+      key: 'ethglobal-nyc-2024',
+      title: 'SpaceGuardians presentation at EthGlobal NYC finals',
+      mainUrl: 'https://youtu.be/UDQlDF4TWYM?t=3836',
+      events: [
+        {
+          name: 'SpaceGuardians presentation at EthGlobal NYC finals',
+          url: 'https://youtu.be/UDQlDF4TWYM?t=3836',
+          video: 'UDQlDF4TWYM?'
+        }
+      ]
+    },
+    {
       key: 'tropt-summit-2022',
       title: 'TROPT Summit 2022: The Future of Privacy Enhancing Technologies (PETs)',
       mainUrl: 'https://www.youtube.com/watch?v=507PfSOB4a4',
