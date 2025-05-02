@@ -4,8 +4,9 @@ function Music(props) {
             <section className="columns">
                 <h2>Music</h2>
                 <iframe 
+                    title="Spotify"
                     style={{borderRadius: '12px'}} 
-                    src="https://open.spotify.com/embed/artist/5lTXbLr3T4ObditZuQQfj2?utm_source=generator" 
+                    src="https://open.spotify.com/embed/artist/1xgoH38ElY1n9EnT1htz7e?utm_source=generator" 
                     width="100%" 
                     height="352" 
                     allowfullscreen="" 
@@ -14,6 +15,7 @@ function Music(props) {
                 <br/>
 
                 <iframe 
+                    title="Soundcloud"
                     width="100%" 
                     height="450"
                     frameborder="no" 
