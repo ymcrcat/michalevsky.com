@@ -114,17 +114,17 @@ function Home(props) {
         <div>
             <section className="columns">
                 <p>I'm a co-founder of <a href="https://www.cryptosat.io">Cryptosat</a>, a company at the intersection of 
-                space (satellites) and Web3/Blockchain, and a co-founder and CTO of <a href="https://www.anjuna.io">Anjuna</a>, 
-                an enterprise security company in the space of Confidential Computing.<br/>
-                I've graduated with a PhD in security and applied cryptography from Stanford University,
-                where I was advised by <a href="https://crypto.stanford.edu/~dabo">Dan Boneh</a>.
+                space (satellites) and Web3/Blockchain, and a co-founder and former CTO of <a href="https://www.anjuna.io">Anjuna</a>, 
+                an enterprise security company focused on Confidential Computing.<br/>
+                I hold a PhD in security and applied cryptography from Stanford University,
+                where I was fortunate to be advised by <a href="https://crypto.stanford.edu/~dabo">Dan Boneh</a>.
                 My research interests include Computers Security and Systems, 
                 Trusted Execution Environments (SGX),
                 Mobile Security and Privacy, Applied Cryptography and Smart Contracts. 
                 My work has been covered by BBC, Wired, Engadget, KQED, and other media outlets.
                 I'm mostly proud of being top-ranked on HackerNews.
-                Previously, I worked in industry as a R&amp;D team lead, and software engineer, 
-                mostly in the fields of networks, embedded software and security.</p>
+                Before attending Stanford, I worked in the industry as an R&amp;D team lead and software engineer, 
+                mostly in networks, embedded software and security.</p>
             </section>
 
             <section className="columns">
