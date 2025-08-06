@@ -9,6 +9,30 @@ import mashable from '../assets/talks/mashable.pdf';
 
 const talks = [
     {
+      key: 'decompute-2023',
+      title: 'Satellites - The Perfect Air-gap for Securing Transactions and MPC Wallets',
+      mainUrl: 'https://www.youtube.com/watch?v=z8uvZBlK0u0',
+      events: [
+        {
+          name: 'Decompute 2023',
+          url: 'https://www.youtube.com/watch?v=z8uvZBlK0u0',
+          video: 'z8uvZBlK0u0',
+        }
+      ]
+    },
+    {
+      key: 'ipfs-thing-2023',
+      title: 'Compute on Data in Space',
+      mainUrl: 'https://www.youtube.com/watch?v=nCI2qgH1Ha4',
+      events: [
+        {
+          name: 'IPFS Thing 2023',
+          url: 'https://www.youtube.com/watch?v=507PfSOB4a4',
+          video: '507PfSOB4a4',
+        }
+      ]
+    },
+    {
       key: 'ethglobal-nyc-2024',
       title: 'SpaceGuardians presentation at EthGlobal NYC finals',
       mainUrl: 'https://youtu.be/UDQlDF4TWYM?t=3836',
