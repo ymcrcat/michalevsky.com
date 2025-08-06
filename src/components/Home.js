@@ -2,6 +2,13 @@ import thesis from '../assets/thesis.pdf';
 
 const publications = [
     {
+      key: 'acns-2025-g-dbreach',
+      title: 'G-DBREACH Attacks: Algorithmic Techniques for Faster and Stronger Compression Side Channels',
+      url: 'https://www.cs.unc.edu/~saba/papers/gdbreach.pdf',
+      pub: 'Applied Cryptography and Network Security (ACNS) 2025',
+      code: 'https://github.com/bnbourassa/gdbreach-attacks'
+    },
+    {
       key: 'https://dl.acm.org/doi/10.1561/1300000070',
       title: 'High Performance, Low Energy, and Trustworthy Blockchains Using Satellites',
       url: 'https://dl.acm.org/doi/10.1561/1300000070',
@@ -104,7 +111,7 @@ function Publication(props) {
         <li>
             <b><a href={props.url}>{props.title}</a></b>
             <br/>
-            <i>{props.pub}</i>
+            <i>{props.pub}</i> {props.code && <a href={props.code}>(code)</a>}
         </li>
     );
 }
