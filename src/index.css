@@ -31,10 +31,7 @@ body {
 }
 
 a, nav ul li a {
-	color: #667eea;
-	text-decoration: none;
-	transition: all 0.2s ease;
-	border-bottom: 1px solid transparent;
+	color: #007bff;
 }
 
 button {
@@ -57,11 +54,6 @@ nav ul {
 
 ol, ul {
 	list-style: none;
-	padding-left: 0;
-	color: #4a5568;
-	font-size: 1.0em;
-	font-weight: normal;
-	line-height: 1.5em;
 }
 
 blockquote, q {
@@ -139,13 +131,11 @@ p {
 }
 
 ul {
-	list-style: none;
-	list-style-type: none;
-	padding-left: 0;
-	color: #4a5568;
+	list-style: disc;
+	color: #555;
 	font-size: 1.0em;
 	font-weight: normal;
-	line-height: 1.5em;
+	line-height: 1.3em;
 }
 
 ol, ol.lowerRoman, ol.upperAlpha {
@@ -174,9 +164,8 @@ a {
 }
 
 a:hover, nav ul li a:hover {
-	color: #764ba2;
-	border-bottom: 1px solid #764ba2;
-	text-decoration: none;
+	color: #0056b3;
+	text-decoration: underline;
 }
 
 a:active {
@@ -223,21 +212,8 @@ ul, ol {
 }
 
 li {
-	margin-bottom: 1.5rem;
-	margin-left: 0;
-	padding: 1rem;
-	background: rgba(255, 255, 255, 0.7);
-	border-radius: 8px;
-	border-left: 3px solid #e2e8f0;
-	transition: all 0.2s ease;
-	list-style: none;
-	list-style-type: none;
-}
-
-li:hover {
-	border-left-color: #667eea;
-	transform: translateX(4px);
-	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+	margin-bottom: 15px;
+	margin-left: 15px;
 }
 
 p, dl, hr, h1, h2, h3, h4, h5, h6, ol, ul, pre, table, address, fieldset {
@@ -258,7 +234,7 @@ body {
 	margin-bottom: 20px;
 	width: 960px;
 	margin: 0 auto;
-
+	
 	position: relative;
 	border: none;
 }
@@ -343,7 +319,7 @@ nav ul li {
 }
 
 nav ul li a {
-	color: #667eea;
+	color: #dce5e7;
 	font-weight: normal;
 	letter-spacing: 0.1em;
 	text-transform: uppercase;
@@ -373,7 +349,7 @@ nav ul li a:hover {
 	font-size: 2em;
 	line-height: 1.5em;
  	text-align: center;
-
+ 
 }
 
 #mainLeft h2 {
@@ -468,7 +444,7 @@ footer ul li a:hover {
 	body {
 	  font-size: 14px;
 	}
-
+  
 	nav ul {
 	  flex-direction: column;
 	}
