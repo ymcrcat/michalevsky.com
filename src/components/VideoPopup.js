@@ -15,7 +15,7 @@ function VideoPopup(props) {
 
   return (
     <i>
-      <span> </span><a href="#" onClick={openModal}>(watch)</a>
+      <span> </span><button onClick={openModal} style={{background: 'none', border: 'none', color: 'inherit', textDecoration: 'underline', cursor: 'pointer'}}>(watch)</button>
       <ModalVideo
         isOpen={modalIsOpen}
         onClose={closeModal}

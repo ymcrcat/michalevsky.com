@@ -7,7 +7,7 @@ const AuthorContext = React.createContext({
 
 // Create a provider component
 export const AuthorProvider = ({ children }) => {
-    const {authorName, setAuthorName} = React.useContext(AuthorContext);
+    const authorName = 'Yan Michalevsky';
 
     return (
         <AuthorContext.Provider value={{ authorName }}>

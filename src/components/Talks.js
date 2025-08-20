@@ -9,6 +9,200 @@ import mashable from '../assets/talks/mashable.pdf';
 
 const talks = [
     {
+      key: 'dbreach-blackhat-us-2021',
+      title: 'DBREACH: Database Reconnaissance and Exfiltration via Adaptive Compression Heuristics',
+      mainUrl: 'https://www.youtube.com/watch?v=e0obU-kREdc',
+      events: [
+        {
+          name: 'BlackHat US 2021',
+          url: 'https://www.youtube.com/watch?v=e0obU-kREdc',
+          video: 'e0obU-kREdc',
+        }
+      ]
+    },
+    {
+      key: 'tees-zeroknowledge-fm-101',
+      title: 'TEEs with Yan Michalevsky from Anjuna',
+      mainUrl: 'https://www.zeroknowledge.fm/101',
+      events: [
+        {
+          name: 'Zeroknowledge.fm Podcast',
+          url: 'https://www.zeroknowledge.fm/101',
+        }
+      ]
+    },
+    {
+      key: 'cosmix-multiple-events',
+      title: 'CoSMIX: Compiler-based System for Secure Memory Instrumentation and Execution in Enclaves',
+      mainUrl: 'https://youtu.be/fSn8nIy0eD0?t=43',
+      events: [
+        {
+          name: 'SGX Community Workshop at Intel',
+        },
+        {
+          name: 'Open Source Enclave Workshop 2019 (OSEW\'19)',
+          video: 'fSn8nIy0eD0',
+        },
+        {
+          name: 'Stanford Security Lunch',
+        }
+      ]
+    },
+    {
+      key: 'rsa-signatures-ashes-2018',
+      title: 'RSA Signatures Under Hardware Restrictions',
+      mainUrl: rsaexp,
+      events: [
+        {
+          name: 'ACM Workshop on Attacks and Solutions in Hardware Security (ASHES 2018)',
+          url: rsaexp,
+        }
+      ]
+    },
+    {
+      key: 'ethereum-bugs-multiple-events',
+      title: 'Ethereum Bugs Through the Lens of Formal Verification',
+      mainUrl: 'https://www.youtube.com/watch?v=Ru6X043Q63U',
+      events: [
+        {
+          name: 'Silicon Valley Ethereum Meetup',
+          url: 'https://www.youtube.com/watch?v=Ru6X043Q63U',
+          video: 'Ru6X043Q63U',
+        },
+        {
+          name: 'Stanford Security Lunch',
+          url: ecf,
+        }
+      ]
+    },
+    {
+      key: 'space-tee-ashes-2017',
+      title: '(WaC) SpaceTEE: Secure and Tamper-proof Computing in Space using CubeSats',
+      mainUrl: ashes,
+      events: [
+        {
+          name: 'ACM Workshop on Attacks and Solutions in Hardware Security (ASHES 2017)',
+        }
+      ]
+    },
+    {
+      key: 'decentralizing-policy-hiding-abe-multiple',
+      title: 'Decentralizing Policy-hiding Attribute-based Encryption',
+      mainUrl: dphabe,
+      events: [
+        {
+          name: 'Stanford Security Lunch talk',
+          url: dphabe,
+        },
+        {
+          name: '23rd European Symposium on Research in Computer Security (ESORICS 2018)',
+          url: dphabe,
+        }
+      ]
+    },
+    {
+        key: 'mobile-security-and-privacy-multiple',
+        title: 'Mobile Security and Privacy: Attacks and Defenses',
+        mainUrl: mobisec,
+        events: [
+        {
+            name: 'PhD Oral Defense Examination at Stanford',
+        },
+        {
+            name: 'VMware Research',
+        },
+        {
+            name: 'Visa Research',
+        }
+        ]
+    },
+    {
+        key: 'side-channel-attacks-multiple-events',
+        title: 'Side-Channel Attacks on Mobile Devices',
+        mainUrl: 'side-channels/index.html',
+        events: [
+        {
+            name: 'Seminar at the Electrical Engineering Department at Tel-Aviv University',
+        },
+        {
+            name: 'RSA Conference US 2015',
+            url: 'https://www.rsaconference.com/events/us15/agenda/sessions/1512/side-channels-in-the-21st-century-information',
+        },
+        {
+            name: 'UIUC CSL Student Conference 2015',
+            url: 'side-channels/csl.html',
+        },
+        {
+            name: 'Invited talk at Qualcomm Research',
+        }
+        ]
+    },
+    {
+        key: 'gyrophone-multiple-events',
+        title: 'Gyrophone: Recognizing Speech from Gyroscope Signals',
+        mainUrl: 'https://youtu.be/uUJSWpdHwdQ',
+        events: [
+        {
+            name: 'BlackHat Europe 2014',
+            url: 'https://www.youtube.com/watch?t=12&v=PVpBrum-H0Y',
+        },
+        {
+            name: '23rd USENIX Security Symposium (USENIX Security \'14)',
+            url: 'https://youtu.be/uUJSWpdHwdQ',
+            video: 'uUJSWpdHwdQ'
+        }
+        ]
+    },
+    {
+        key: 'mashable-multiple-events',
+        title: 'MASHaBLE: Mobile Applications of Secret Handshakes over Bluetooth LE',
+        mainUrl: mashable,
+        events: [
+            {
+                name: 'Seminar talk at Columbia University',
+            },
+            {
+                name: 'The 22nd Annual Conference on Mobile Computing and Networking (MobiCom\'16)',
+                url: 'https://www.youtube.com/watch?v=-Sq7g1aPDmc',
+                video: '-Sq7g1aPDmc'
+            },
+            {
+                name: 'Seminar talk at Tel-Aviv University',
+            },
+            {
+                name: 'Stanford Security Lunch talk',
+            },
+            {
+                name: 'BlackHat Asia 2017, Singapore',
+                url: 'https://www.blackhat.com/asia-17/briefings.html#mashable-mobile-applications-of-secret-handshakes-over-bluetooth-le',
+            }
+        ]
+    },
+    {
+        key: 'privately-finding-common-friends-stanford-lunch',
+        title: 'Privately Finding Common Friends of Friends in Social Networks',
+        mainUrl: '#',
+        events: [
+        {
+            name: 'Stanford Security Lunch talk',
+        }
+        ]
+    },
+    {
+        key: 'securing-distributed-computation-hebrew-u',
+        title: 'Securing Distributed Computation via Trusted Quorums',
+        mainUrl: securereduce,
+        events: [
+        {
+            name: 'Seminar talk at the Hebrew University',
+            url: securereduce,
+        }
+        ]
+    }
+];
+
+const talks = [
+    {
       key: 'decompute-2023',
       title: 'Satellites - The Perfect Air-gap for Securing Transactions and MPC Wallets',
       mainUrl: 'https://www.youtube.com/watch?v=z8uvZBlK0u0',
@@ -329,7 +523,7 @@ function Talks(props) {
     return (
         <section className="columns">
             <h2>Talks</h2>
-            {talks.map(t => <Talk {...t}/>)}
+            {talks.map(t => <Talk key={t.key} title={t.title} mainUrl={t.mainUrl} events={t.events}/>)}
         </section>
     )
 }
