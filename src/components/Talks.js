@@ -1,4 +1,3 @@
-
 import VideoPopup from './VideoPopup';
 import rsaexp from '../assets/talks/rsaexp.pdf';
 import ecf from '../assets/talks/ecf.pdf';
