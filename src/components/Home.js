@@ -136,7 +136,7 @@ function Home(props) {
 
             <section className="columns">
                 <h2>Publications</h2>
-                {publications.map(({ key, ...props }) => <Publication key={key} {...props}/>)}
+                {publications.map((p) => <Publication key={p.key} title={p.title} url={p.url} pub={p.pub} code={p.code}/>)}
             </section>
 
             <section className="columns">

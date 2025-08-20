@@ -309,14 +309,14 @@ const talks = [
     }
 ];
 
-function Talk(props) {
+function Talk({ title, mainUrl, events }) {
     return (
         <li>
-            <b><a href={props.mainUrl}>{props.title}</a></b><br/>
-            {props.events.map((event, index) => (
+            <b><a href={mainUrl}>{title}</a></b><br/>
+            {events.map((event, index) => (
                 <i key={index}>
                     {event.url ? <a href={event.url}>{event.name}</a> : event.name}
-                    {event.video ? <VideoPopup url={event.video} title={props.title} /> : null}
+                    {event.video ? <VideoPopup url={event.video} title={title} /> : null}
                     <br/>
                 </i>
             ))}
