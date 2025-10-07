@@ -3,6 +3,25 @@ function Music(props) {
         <div>
             <section className="columns">
                 <h2>Music</h2>
+                
+                <br/>
+                <h4>
+                I'm half of a Melodic Techno duo called <a href="https://ofthemindmusic.com">Of The Mind</a>.
+                </h4>
+                <br/>
+
+                <iframe 
+                    title="Spotify"
+                    style={{borderRadius: '12px'}} 
+                    src="https://open.spotify.com/embed/artist/1t2VU9LwNw1GgDqwMTi7dM?utm_source=generator" 
+                    width="100%" 
+                    height="352" 
+                    allowfullscreen="" 
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                    loading="lazy" />
+                
+                <br/>
+
                 <iframe 
                     title="Spotify"
                     style={{borderRadius: '12px'}} 
@@ -12,6 +31,7 @@ function Music(props) {
                     allowfullscreen="" 
                     allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
                     loading="lazy" />
+
                 <br/>
 
                 <iframe 
