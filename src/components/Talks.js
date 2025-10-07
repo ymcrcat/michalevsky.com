@@ -167,7 +167,7 @@ const talks = [
     {
         key: 'privately-finding-common-friends-stanford-lunch',
         title: 'Privately Finding Common Friends of Friends in Social Networks',
-        mainUrl: '#', // Assuming no specific main URL available
+        mainUrl: '#',
         events: [
         {
             name: 'Stanford Security Lunch talk',
@@ -224,7 +224,7 @@ const talks = [
     {
         key: 'sommeprivee-stanford-security-lunch',
         title: 'SommePrivée: Privacy Preserving Reports for Rare Occurrences',
-        mainUrl: '#', // Assuming no specific main URL available
+        mainUrl: '#',
         events: [
         {
             name: 'Stanford Security Lunch talk',
@@ -307,17 +307,16 @@ const talks = [
         }
         ]
     }
-];        
-  
+];
 
-function Talk(props) {
+function Talk({ title, mainUrl, events }) {
     return (
         <li>
-            <b><a href={props.mainUrl}>{props.title}</a></b><br/>
-            {props.events.map((event, index) => (
+            <b><a href={mainUrl}>{title}</a></b><br/>
+            {events.map((event, index) => (
                 <i key={index}>
                     {event.url ? <a href={event.url}>{event.name}</a> : event.name}
-                    {event.video ? <VideoPopup url={event.video} title={props.title} /> : null}
+                    {event.video ? <VideoPopup url={event.video} title={title} /> : null}
                     <br/>
                 </i>
             ))}
@@ -329,7 +328,7 @@ function Talks(props) {
     return (
         <section className="columns">
             <h2>Talks</h2>
-            {talks.map(t => <Talk {...t}/>)}
+            {talks.map(t => <Talk key={t.key} title={t.title} mainUrl={t.mainUrl} events={t.events}/>)}
         </section>
     )
 }

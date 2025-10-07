@@ -1,5 +1,5 @@
 import { useAuthorContext } from '../Context';
-import photo from '../assets/yan.png';
+import photo from '../assets/yan_new.jpg';
 
 function MainLeft() {
     const authorName = useAuthorContext();
