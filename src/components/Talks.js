@@ -27,8 +27,8 @@ const talks = [
       events: [
         {
           name: 'IPFS Thing 2023',
-          url: 'https://www.youtube.com/watch?v=507PfSOB4a4',
-          video: '507PfSOB4a4',
+          url: 'https://www.youtube.com/watch?v=nCI2qgH1Ha4',
+          video: 'nCI2qgH1Ha4',
         }
       ]
     },
