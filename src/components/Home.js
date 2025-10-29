@@ -109,9 +109,9 @@ const publications = [
 function Publication(props) {
     return (
         <li>
-            <b><a href={props.url}>{props.title}</a></b>
+            <b><a href={props.url} className="link-highlight">{props.title}</a></b>
             <br/>
-            <i>{props.pub}</i> {props.code && <a href={props.code}>(code)</a>}
+            <i>{props.pub}</i> {props.code && <a href={props.code} className="link-highlight">(code)</a>}
         </li>
     );
 }
@@ -119,7 +119,7 @@ function Publication(props) {
 function Home(props) {
     return (
         <div>
-            <section className="columns">
+            <section className="columns content-card">
                 <p>I co-founded Cryptosat (now <a href="https://www.aptosorbital.com">Aptos Orbital</a>), a company formerly at the intersection of 
                 space (satellites) and Web3/Blockchain and now focusing on satellite communications.
                 Before that I co-founded and served as the CTO of <a href="https://www.anjuna.io">Anjuna</a>, 
@@ -133,13 +133,12 @@ function Home(props) {
                 </p>
             </section>
 
-            <section className="columns">
-                <h2>Publications</h2>
+            <section className="columns content-card">
                 {publications.map((p) => <Publication key={p.key} title={p.title} url={p.url} pub={p.pub} code={p.code}/>)}
             </section>
 
-            <section className="columns">
-                <h2>PhD Thesis</h2>
+            <section className="columns content-card">
+                <h2 className="section-title mb-2">PhD Thesis</h2>
                 Mobile Security and Privacy: Attacks and Defenses (<a href={thesis}>thesis</a>)
             </section>
         </div>

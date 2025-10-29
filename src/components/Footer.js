@@ -3,7 +3,7 @@ import linkedin from '../assets/linkedin.png';
 
 function Footer() {
     return (
-        <footer>
+        <footer className="mt-7 pt-4 border-t border-gray-200 dark:border-neutral-800 flex flex-wrap items-center justify-between gap-3">
             <a href="https://www.linkedin.com/in/yanmichalevsky">
                 <img 
                     src={linkedin}

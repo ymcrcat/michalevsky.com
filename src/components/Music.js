@@ -1,10 +1,7 @@
 function Music(props) {
     return (
         <div>
-            <section className="columns">
-                <h2>Music</h2>
-                
-                <br/>
+            <section className="columns content-card">
                 <h4>
                 I'm half of a Melodic Techno duo called <a href="https://ofthemindmusic.com">Of The Mind</a>.
                 </h4>

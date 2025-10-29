@@ -312,10 +312,10 @@ const talks = [
 function Talk({ title, mainUrl, events }) {
     return (
         <li>
-            <b><a href={mainUrl}>{title}</a></b><br/>
+            <b><a href={mainUrl} className="link-highlight">{title}</a></b><br/>
             {events.map((event, index) => (
                 <i key={index}>
-                    {event.url ? <a href={event.url}>{event.name}</a> : event.name}
+                    {event.url ? <a href={event.url} className="link-highlight">{event.name}</a> : event.name}
                     {event.video ? <VideoPopup url={event.video} title={title} /> : null}
                     <br/>
                 </i>
@@ -326,8 +326,7 @@ function Talk({ title, mainUrl, events }) {
 
 function Talks(props) {
     return (
-        <section className="columns">
-            <h2>Talks</h2>
+        <section className="columns content-card">
             {talks.map(t => <Talk key={t.key} title={t.title} mainUrl={t.mainUrl} events={t.events}/>)}
         </section>
     )
