@@ -6,7 +6,7 @@ function AddLink(props) {
             <NavLink 
                 to={props.to}
                 className={({ isActive }) =>
-                    `inline-block py-1 border-b-2 ${isActive ? 'border-blue-600 text-blue-700 dark:text-blue-400 font-semibold' : 'border-transparent text-gray-800 dark:text-gray-200 hover:border-blue-600'}`
+                    `inline-block py-1 border-b-2 ${isActive ? 'border-blue-600 text-blue-700 font-semibold' : 'border-gray-300 text-gray-900 hover:text-blue-700 hover:border-blue-600'}`
                 }
                 end={props.end}
             >
