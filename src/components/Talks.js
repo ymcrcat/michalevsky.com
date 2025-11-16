@@ -9,6 +9,30 @@ import mashable from '../assets/talks/mashable.pdf';
 
 const talks = [
     {
+      key: 'ethglobal-nyc-2024',
+      title: 'SpaceGuardians presentation at EthGlobal NYC finals',
+      mainUrl: 'https://youtu.be/UDQlDF4TWYM?t=3836',
+      events: [
+        {
+          name: 'SpaceGuardians presentation at EthGlobal NYC finals',
+          url: 'https://youtu.be/UDQlDF4TWYM?t=3836',
+          video: 'UDQlDF4TWYM?'
+        }
+      ]
+    },
+    {
+      key: 'smartcon-2023',
+      title: 'Building the Trust Infrastructure for Web3. In Space.',
+      mainUrl: 'https://www.youtube.com/watch?v=5k1X_q1UPJI',
+      events: [
+        {
+          name: 'SmartCon 2023',
+          url: 'https://www.youtube.com/watch?v=5k1X_q1UPJI',
+          video: '5k1X_q1UPJI',
+        }
+      ]
+    },
+    {
       key: 'decompute-2023',
       title: 'Satellites - The Perfect Air-gap for Securing Transactions and MPC Wallets',
       mainUrl: 'https://www.youtube.com/watch?v=z8uvZBlK0u0',
@@ -33,14 +57,14 @@ const talks = [
       ]
     },
     {
-      key: 'ethglobal-nyc-2024',
-      title: 'SpaceGuardians presentation at EthGlobal NYC finals',
-      mainUrl: 'https://youtu.be/UDQlDF4TWYM?t=3836',
+      key: 'protocol-labs-cryptosat',
+      title: 'Cryptosat: Secure Computing in Space using CubeSats',
+      mainUrl: 'https://www.youtube.com/watch?v=UwPs_2mnMoE',
       events: [
         {
-          name: 'SpaceGuardians presentation at EthGlobal NYC finals',
-          url: 'https://youtu.be/UDQlDF4TWYM?t=3836',
-          video: 'UDQlDF4TWYM?'
+          name: 'Protocol Labs Research Seminar',
+          url: 'https://www.youtube.com/watch?v=UwPs_2mnMoE',
+          video: 'UwPs_2mnMoE',
         }
       ]
     },
