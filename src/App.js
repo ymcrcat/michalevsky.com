@@ -2,6 +2,7 @@ import {BrowserRouter} from 'react-router-dom';
 import MainLeft from './components/MainLeft';
 import MainRight from './components/MainRight';
 import AuthorProvider from './Context';
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
           <MainRight/>
         </AuthorProvider>
       </BrowserRouter>
+      <Analytics />
     </div>
   );
 }
