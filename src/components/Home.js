@@ -123,7 +123,7 @@ function Home(props) {
                 <p>I co-founded Cryptosat (now <a href="https://www.aptosorbital.com">Aptos Orbital</a>), a company formerly at the intersection of 
                 space (satellites) and Web3/Blockchain and now focusing on satellite communications.
                 Before that I co-founded and served as the CTO of <a href="https://www.anjuna.io">Anjuna</a>, 
-                an enterprise security company focused on Confidential Computing.<br/>
+                an enterprise security company focused on Confidential Computing and TEEs.<br/>
                 I hold a PhD in security and applied cryptography from Stanford University,
                 where I was fortunate to be advised by <a href="https://crypto.stanford.edu/~dabo">Dan Boneh</a>.
                 My research interests include Computers Security and Systems, 
