@@ -2,6 +2,13 @@ import thesis from '../assets/thesis.pdf';
 
 const publications = [
     {
+      key: 'prototyping-privacy-pools-on-stellar',
+      title: 'Prototyping Privacy Pools on Stellar',
+      url: 'https://stellar.org/blog/ecosystem/prototyping-privacy-pools-on-stellar',
+      pub: 'Stellar Ecosystem Blog',
+      code: 'https://github.com/ymcrcat/soroban-privacy-pools'
+    },
+    {
       key: 'acns-2025-g-dbreach',
       title: 'G-DBREACH Attacks: Algorithmic Techniques for Faster and Stronger Compression Side Channels',
       url: 'https://www.cs.unc.edu/~saba/papers/gdbreach.pdf',
