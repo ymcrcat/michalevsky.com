@@ -31,12 +31,14 @@ function Music(props) {
 
                 <br/>
 
-                <iframe 
+                <iframe
                     title="Soundcloud"
-                    width="100%" 
+                    width="100%"
                     height="450"
-                    frameborder="no" 
-                    src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/44197455&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_artwork=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"/>
+                    scrolling="no"
+                    frameBorder="no"
+                    src="https://w.soundcloud.com/player/?url=https%3A%2F%2Fapi.soundcloud.com%2Fplaylists%2F2185307342&show_artwork=false"
+                />
             </section>
 
             {/* <section className="columns">
