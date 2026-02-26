@@ -9,6 +9,17 @@ import mashable from '../assets/talks/mashable.pdf';
 
 const talks = [
     {
+      key: 'dark-pool-stellar-2025',
+      title: 'Building a Dark Pool on Stellar: MPC, FHE, and TEEs Compared',
+      mainUrl: 'https://stellar.org/blog/developers/building-a-dark-pool-on-stellar-mpc-fhe-and-tees-compared',
+      events: [
+        {
+          name: 'Stellar Development Foundation Blog',
+          url: 'https://stellar.org/blog/developers/building-a-dark-pool-on-stellar-mpc-fhe-and-tees-compared',
+        }
+      ]
+    },
+    {
       key: 'ethglobal-nyc-2024',
       title: 'SpaceGuardians presentation at EthGlobal NYC finals',
       mainUrl: 'https://youtu.be/UDQlDF4TWYM?t=3836',
