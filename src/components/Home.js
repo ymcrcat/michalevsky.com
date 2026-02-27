@@ -2,6 +2,12 @@ import thesis from '../assets/thesis.pdf';
 
 const publications = [
     {
+      key: 'building-dark-pool-stellar',
+      title: 'Building a Dark Pool on Stellar: MPC, FHE, and TEEs Compared',
+      url: 'https://stellar.org/blog/developers/building-a-dark-pool-on-stellar-mpc-fhe-and-tees-compared',
+      pub: 'Stellar Developer Blog',
+    },
+    {
       key: 'prototyping-privacy-pools-on-stellar',
       title: 'Prototyping Privacy Pools on Stellar',
       url: 'https://stellar.org/blog/ecosystem/prototyping-privacy-pools-on-stellar',
