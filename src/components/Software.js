@@ -3,11 +3,11 @@ function Software(props) {
         <section className="columns content-card">
 
             <p><h3><a href="https://github.com/ymcrcat/soroban-privacy-pools"><b>Privacy Pools for Stellar</b></a></h3>
-            A prototype of Privacy Pools for the <a href="https://stellar.org">Stellar</a> blockchain using TEEs.
+            A prototype of Privacy Pools for the <a href="https://stellar.org">Stellar</a> blockchain using ZK proofs.
             </p>
             <br/>
             <p><h3><a href="https://github.com/ymcrcat/stellar-dark-pool"><b>Dark Pool Trading for Stellar</b></a></h3>
-            A prototype of Dark Pool Trading for the <a href="https://stellar.org">Stellar</a> blockchain using ZK proofs.
+            A prototype of Dark Pool Trading for the <a href="https://stellar.org">Stellar</a> blockchain using TEEs.
             </p>
             <br/>
             <p><h3><b>BoxStream</b></h3>
