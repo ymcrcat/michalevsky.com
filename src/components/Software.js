@@ -2,6 +2,12 @@ function Software(props) {
     return (
         <section className="columns content-card">
 
+            <p><h3><a href="https://budgetbreeze.io"><b>Budgetbreeze</b></a></h3>
+            Budgetbreeze is a personal finance dashboard that connects bank, card, and investment
+            accounts to track net worth, cash flow, spending, subscriptions, and AI-powered insights
+            in one place.
+            </p>
+            <br/>
             <p><h3><a href="https://github.com/ymcrcat/soroban-privacy-pools"><b>Privacy Pools for Stellar</b></a></h3>
             A prototype of Privacy Pools for the <a href="https://stellar.org">Stellar</a> blockchain using ZK proofs.
             </p>
