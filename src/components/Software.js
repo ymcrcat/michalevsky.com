@@ -16,7 +16,7 @@ function Software(props) {
             A prototype of Dark Pool Trading for the <a href="https://stellar.org">Stellar</a> blockchain using TEEs.
             </p>
             <br/>
-            <p><h3><b>BoxStream</b></h3>
+            <p><h3><a href="https://www.boxstreamapp.com/"><b>BoxStream</b></a></h3>
             BoxStream is a cloud music player for Android, currently supporting streaming audio from Dropbox.
             Dropbox is a great way to store your music or podcasts and organize them conveniently,
             so that they are accessible on each one of your devices.
