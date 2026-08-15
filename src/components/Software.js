@@ -2,6 +2,13 @@ function Software(props) {
     return (
         <section className="columns content-card">
 
+            <p><h3><a href="https://butterlampaudio.com"><b>Butterlamp Audio</b></a></h3>
+            Butterlamp Audio is my music software project. The fist plugin is Tilichu, 
+            a wavetable synthesizer plugin with two oscillators, granular and spectral source engines, 
+            a 32-slot modulation matrix, a full effects rack, 
+            and an AI-powered generator that turns text descriptions into patches.
+            </p>
+            <br/>
             <p><h3><a href="https://budgetbreeze.io"><b>Budgetbreeze</b></a></h3>
             Budgetbreeze is a personal finance dashboard that connects bank, card, and investment
             accounts to track net worth, cash flow, spending, subscriptions, and AI-powered insights
