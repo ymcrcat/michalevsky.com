@@ -9,6 +9,12 @@ function Software(props) {
             and an AI-powered generator that turns text descriptions into patches.
             </p>
             <br/>
+            <p><h3><a href="https://hadavarmail.com"><b>Hadavar Mail</b></a></h3>
+            Hadavar is a local-first macOS mail client that indexes your mailbox on-device,
+            groups threads by what they need from you, summarizes long ones,
+            and drafts replies in your voice.
+            </p>
+            <br/>
             <p><h3><a href="https://budgetbreeze.io"><b>Budgetbreeze</b></a></h3>
             Budgetbreeze is a personal finance dashboard that connects bank, card, and investment
             accounts to track net worth, cash flow, spending, subscriptions, and AI-powered insights
