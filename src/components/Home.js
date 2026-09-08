@@ -117,7 +117,7 @@ const publications = [
       url: 'http://ieeexplore.ieee.org/document/5475946/',
       pub: 'MELECON 2010 - 2010: 15th IEEE Mediterranean Electrotechnical Conference'
     }
-  ];  
+  ];
 
 function Publication(props) {
     return (
@@ -133,16 +133,17 @@ function Home(props) {
     return (
         <div>
             <section className="columns content-card">
-                <p>I co-founded Cryptosat (now <a href="https://www.aptosorbital.com">Aptos Orbital</a>), a company formerly at the intersection of 
-                space (satellites) and Web3/Blockchain and now focusing on satellite communications.
-                Before that I co-founded and served as the CTO of <a href="https://www.anjuna.io">Anjuna</a>, 
-                an enterprise security company focused on Confidential Computing and TEEs.<br/>
-                I hold a PhD in security and applied cryptography from Stanford University,
-                where I was fortunate to be advised by <a href="https://crypto.stanford.edu/~dabo">Dan Boneh</a>.
-                My research interests include Computers Security and Systems, 
-                Trusted Execution Environments (SGX),
-                Mobile Security and Privacy, Applied Cryptography and Smart Contracts. 
-                My work has been covered by BBC, Wired, Engadget, KQED, and other media outlets.
+                <p>I co-founded Cryptosat, now <a href="https://www.aptosorbital.com">Aptos Orbital</a>,
+                which began at the intersection of satellite technology and Web3/Blockchain and has since
+                evolved to focus on satellite communications.
+                Previously, I co-founded and served as the CTO of <a href="https://www.anjuna.io">Anjuna</a>,
+                an enterprise security company specializing in Confidential Computing and
+                Trusted Execution Environments (TEEs).<br/>
+                I hold a PhD in Electrical Engineering from Stanford University,
+                where I carried out research in Security and Applied Cryptography and was advised
+                by <a href="https://crypto.stanford.edu/~dabo">Dan Boneh</a>.
+                My interests span computers systems and security, AI, applied cryptography and privacy, and blockchain.
+                My work has been featured by BBC, Wired, Engadget, KQED, and other media outlets.
                 </p>
             </section>
 
