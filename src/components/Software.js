@@ -2,6 +2,13 @@ function Software(props) {
     return (
         <section className="columns content-card">
 
+            <p><h3><a href="https://rgpu.dev"><b>rGPU</b></a></h3>
+            rGPU runs GPU work on a remote NVIDIA machine while your application stays on your laptop.
+            It offers a PyTorch backend that exposes a native <code>rgpu</code> device over an SSH tunnel,
+            and a CUDA compatibility shim that lets existing Linux CUDA binaries
+            (including stock CUDA PyTorch) run against the remote GPU without modification.
+            </p>
+            <br/>
             <p><h3><a href="https://butterlampaudio.com"><b>Butterlamp Audio</b></a></h3>
             Butterlamp Audio is my music software project. The fist plugin is Tilichu, 
             a wavetable synthesizer plugin with two oscillators, granular and spectral source engines, 
