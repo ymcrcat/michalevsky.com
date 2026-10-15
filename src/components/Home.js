@@ -134,7 +134,7 @@ function Home(props) {
         <div>
             <section className="columns content-card">
               <p>I co-founded Cryptosat, now <a href="https://www.aptosorbital.com">Aptos Orbital</a>,
-                and helped launch three satellites to space aboard SpaceX rockets.
+                and helped <a href="https://youtu.be/MCQSQLA41Xw">launch three satellites to space aboard SpaceX rockets</a>.
                 We began at the intersection of satellite technology and Web3/Blockchain and has since
                 evolved to focus on satellite communications.
                 Previously, I co-founded and served as the CTO of <a href="https://www.anjuna.io">Anjuna</a>,
