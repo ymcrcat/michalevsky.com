@@ -260,7 +260,6 @@ const talks = [
         key: 'powerspy-multiple-events',
         title: 'PowerSpy: Location Tracking using Mobile Device Power Analysis',
         mainUrl: 'https://www.youtube.com/watch?v=kgD0epbAbeM',
-        video: 'kgD0epbAbeM',
         events: [
         {
             name: 'Invited talk at the Technion CE Club Seminar',
@@ -334,11 +333,10 @@ const talks = [
     }
 ];
 
-function Talk({ title, mainUrl, video, events }) {
+function Talk({ title, mainUrl, events }) {
     return (
         <li>
-            <b><a href={mainUrl} className="link-highlight">{title}</a></b>
-            {video ? <VideoPopup url={video} title={title} /> : null}<br/>
+            <b><a href={mainUrl} className="link-highlight">{title}</a></b><br/>
             {events.map((event, index) => (
                 <i key={index}>
                     {event.url ? <a href={event.url} className="link-highlight">{event.name}</a> : event.name}
@@ -353,7 +351,7 @@ function Talk({ title, mainUrl, video, events }) {
 function Talks(props) {
     return (
         <section className="columns content-card">
-            {talks.map(t => <Talk key={t.key} title={t.title} mainUrl={t.mainUrl} video={t.video} events={t.events}/>)}
+            {talks.map(t => <Talk key={t.key} title={t.title} mainUrl={t.mainUrl} events={t.events}/>)}
         </section>
     )
 }
