@@ -46,6 +46,16 @@ function Footer() {
                     </NavLink>
                 </li>
                 <li>
+                    <a
+                        href="https://scholar.google.com/citations?user=ysrdkvkAAAAJ&hl=en"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-block py-1 border-b-2 border-gray-300 text-gray-900 hover:text-blue-700 hover:border-blue-600"
+                    >
+                        Scholar
+                    </a>
+                </li>
+                <li>
                     <NavLink 
                         to='/talks'
                         className={({ isActive }) =>
