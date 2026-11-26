@@ -259,7 +259,7 @@ const talks = [
     {
         key: 'powerspy-multiple-events',
         title: 'PowerSpy: Location Tracking using Mobile Device Power Analysis',
-        mainUrl: 'side-channels/powerspy.html',
+        mainUrl: 'https://www.youtube.com/watch?v=kgD0epbAbeM',
         events: [
         {
             name: 'Invited talk at the Technion CE Club Seminar',
